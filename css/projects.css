@@ -1,0 +1,115 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+
+}
+
+#top-menu{
+	position: fixed;
+	display: block;
+	top: 0px;
+	width: 100vw;
+	text-align: right;
+	padding: 18px 6px;
+	background: darkcyan;
+	box-shadow: 0px 2px 3px 1px #111;
+	z-index: 20;
+}
+#top-menu>a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 10px;
+	padding: 0px 2px;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+main{
+	height: 100vh;
+	width: 100%;
+	padding-top: 55px;
+}
+main>#main-preview{
+	height: 45vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% !important;
+	background-attachment: scroll;
+	background-position-x: center;
+	background-position-y: center;
+	background-blend-mode: overlay;
+	box-shadow: 1px 0px 3px 1px #222;
+}
+
+main>section{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px 5px;
+	padding-bottom: 20px;
+	border: 2px solid #fff ;
+}
+main>section>a{
+	display: inline-block;
+	width: 80px;
+	margin: 0px;
+	padding: 0px;
+
+
+}
+main>section>a>img{
+	width: inherit;
+}
+main>section>a>img[id='itch']{
+	border: 1px solid #111;
+	border-radius: 3px;
+}
+main>section>a[id="normal-link"]{
+	padding: 4px;
+	margin-top: -3px;
+	background: darkcyan;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px solid #111;
+	border-radius: 3px;
+	font-size: 9pt;
+	text-decoration: none;
+}
+
+article>p{
+	padding: 25px 10px;
+	padding-top: 5px;
+}
+
+
+
+/*Project footer*/
+footer{
+	position: fixed;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+	bottom: 0px;
+	left: 0px;
+	padding: 16px 6px;
+	background-color: darkcyan;
+	width: 100%;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff;
+
+}
+footer>a,footer>h1{
+	display: inline-block;
+	color: #fff;
+}
